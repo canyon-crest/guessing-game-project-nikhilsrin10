@@ -6,12 +6,12 @@ date.textContent = time();
     const levelArr = document.getElementsByName("level");
     const scoreArr = [];
 
-    //event listeners
+//event listeners
 playBtn.addEventListener("click", play);
 guessBtn.addEventListener("click", makeGuess);
 
 
-    // concatenate the date and time
+// concatenate the date and time
 function time() {
     let d = new Date();
     let str = d.getMonth()+1 + "/" + d.getDate() + "/" + d.getFullYear()
